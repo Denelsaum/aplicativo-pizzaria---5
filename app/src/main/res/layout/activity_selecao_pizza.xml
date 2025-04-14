@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o(s) sabor(es) da pizza:" />
+
+    <CheckBox
+        android:id="@+id/cbCalabresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calabresa" />
+
+    <CheckBox
+        android:id="@+id/cbMargarita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margarita" />
+
+    <CheckBox
+        android:id="@+id/cbPortuguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portuguesa" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo" />
+</LinearLayout>

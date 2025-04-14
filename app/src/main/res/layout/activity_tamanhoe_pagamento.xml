@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha o tamanho da pizza:" />
+
+        <RadioGroup
+            android:id="@+id/rgTamanho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbPequena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pequena (R$ 20)" />
+            <RadioButton
+                android:id="@+id/rbMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Média (R$ 30)" />
+            <RadioButton
+                android:id="@+id/rbGrande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grande (R$ 40)" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha a forma de pagamento:" />
+
+        <RadioGroup
+            android:id="@+id/rgPagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbDinheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinheiro" />
+            <RadioButton
+                android:id="@+id/rbCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartão" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmarPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Pedido" />
+    </LinearLayout>
+</ScrollView>
